@@ -97,14 +97,7 @@ footer {
     padding-bottom: 3%;
 }
 
-@media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 3.5rem;
-    }
-    #title {
-        margin-top: -2%;
-    }
-}
+@media only screen and (max-width: 500px) {}
 
 @media only screen and (min-width: 340px)and (max-width: 500px) {
     h1 {
@@ -118,5 +111,11 @@ footer {
     .k,
     .l {
         height: 160px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    #title {
+        margin-top: -2%;
     }
 }
